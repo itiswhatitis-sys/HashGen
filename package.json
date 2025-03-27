@@ -9,19 +9,38 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@edgestore/react": "^0.3.3",
+    "@edgestore/server": "^0.3.3",
+    "@google/generative-ai": "^0.24.0",
+    "@headlessui/react": "^2.2.0",
+    "@kinde-oss/kinde-auth-nextjs": "^2.5.6",
+    "@mapbox/search-js-react": "^1.0.0",
+    "@prisma/client": "^6.5.0",
+    "@radix-ui/react-label": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "config": "^3.3.12",
+    "dlx": "^0.2.1",
+    "lucide-react": "^0.484.0",
+    "mapbox": "^1.0.0-beta10",
+    "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "tailwind-merge": "^3.0.2",
+    "tw-animate-css": "^1.2.4",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "prisma": "^6.5.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
